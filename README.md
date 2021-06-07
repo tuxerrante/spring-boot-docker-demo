@@ -25,4 +25,7 @@ If you don't have a working kubernetes or minikube cluster you can use an online
 ### KUBERNETES
 1. Describe briefly the deployment.yml
 2. Fix major issues
-3. Deploy it and check that it works fine
+3. Deploy it and check if it works fine
+
+Help 1: kubectl run -it --rm --restart=Never busybox --image=gcr.io/google-containers/busybox sh
+Help 2:https://kubernetes.io/docs/tasks/debug-application-cluster/debug-service/#does-any-service-exist-in-dns
