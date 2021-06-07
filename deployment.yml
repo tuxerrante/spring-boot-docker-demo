@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: spring-demo
-        image: <Image>
+        image: alessandroaffinito/spring-demo:release-01
         resources:
           limits:
             memory: "128Mi"
@@ -29,5 +29,5 @@ spec:
   selector:
     app: spring-demo
   ports:
-  - port: 8080
+  - port: 3050
     targetPort: 8080
