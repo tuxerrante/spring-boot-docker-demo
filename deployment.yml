@@ -13,11 +13,11 @@ spec:
     spec:
       containers:
       - name: spring-demo
-        image: <Image>
+        image: alessandroaffinito/spring-demo:release-01
         resources:
           limits:
             memory: "128Mi"
-            cpu: "500m"
+            cpu: "0m"
         ports:
         - containerPort: 3050
 ---
