@@ -29,5 +29,5 @@ spec:
   selector:
     app: spring-demo
   ports:
-  - port: 3050
-    targetPort: 8080
+  - port: 8080
+    targetPort: 3050
