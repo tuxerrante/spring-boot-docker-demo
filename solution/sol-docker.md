@@ -1,10 +1,11 @@
 
 ## Test the app
-docker build -t learnings/spring-boot-docker-demo .
+docker build -t spring-demo .
 
-docker run -p 3050:3050 --name spring-boot-docker-demo -t learnings/spring-boot-docker-demo
+docker run -p 3050:3050 --name spring-demo -t spring-demo
 
-## Deploy to kubernetes
+
+
 
 
 ## Useful Resources
