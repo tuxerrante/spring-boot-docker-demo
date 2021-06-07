@@ -2,10 +2,9 @@
 ## Test the app
 docker build -t spring-demo .
 
-docker run -p 3050:3050 --name spring-demo -t spring-demo
+docker run -it --rm --name spring-demo -p 8080:8080 spring-demo
 
-
-
+docker exec -it spring-demo bash
 
 
 ## Useful Resources

@@ -13,5 +13,5 @@ COPY ${JAR_FILE} app.jar
 
 #####################################
 FROM openjdk:15-jdk-slim
-COPY --from=bulid app.jar .
+COPY --from=build app.jar .
 ENTRYPOINT ["java","-jar","/app.jar"]
