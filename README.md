@@ -4,9 +4,11 @@ The master branch contains a NOT working version of our app, please fix it!
 If you don't have a working kubernetes or minikube cluster you can use an online environment like https://www.katacoda.com/petermbenjamin/scenarios/kubernetes-playground
 
 ### GIT 
-0. Clone from https://github.com/tuxerrante/spring-boot-docker-demo.git
-1. Create a new branch from master
+0. Clone https://github.com/tuxerrante/spring-boot-docker-demo.git
+1. Create a new branch from master  
 2. Check the last commit author
+3. Check the status of the repo
+
 
 ### MVN
 1. Describe briefly the POM

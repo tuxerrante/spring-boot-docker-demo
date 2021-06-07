@@ -1,4 +1,4 @@
-FROM openjdk:15-jdk-slim AS build
+FROM openjdk:15-jdk-slim
 
 COPY mvnw .
 COPY .mvn .mvn
